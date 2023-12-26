@@ -1,0 +1,26 @@
+{
+  "name": "stsabbir-npm",
+  "description": "ST Sabbir NPM package",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "author": {
+    "email": "devlopersabbir@gmail.com",
+    "name": "Sabbir Hossain",
+    "url": "https://github.com/devlopersabbir"
+  },
+  "categories": [
+    "Education",
+    "Other"
+  ],
+  "keywords": [
+    "sabbir",
+    "stsabbir",
+    "stsabbir-npm"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "prepare": "npm run build"
+  }
+}
